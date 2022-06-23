@@ -10,6 +10,8 @@ import { Translation } from './components/Translation';
 import { Job } from './components/Job';
 import { LandscapePhoto } from './components/LandscapePhoto';
 
+const backendUrl = import.meta.env.VITE_BACKEND_URL;
+
 const separator = '|';
 const baseUrl = 'http://localhost:3007';
 const url = `${baseUrl}/all`;
